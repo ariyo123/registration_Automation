@@ -100,11 +100,11 @@ for item in my_list:
              f"`bdk_pin_block`,`bdk_pin_block_check_value`,`bdk_pin_block_change_count`,`bdk_pin_block_last_date_change`," \
              f"`bdk_track2`,`bdk_track2_check_value`,`bdk_track2_change_count`,`bdk_track2_last_date_change`,`bdk_emv`," \
              f"`bdk_emv_check_value`,`bdk_emv_change_count`,`bdk_emv_last_date_change`,`master_or_bdk`)" \
-            f"VALUES ({item[26]},'{item[9]}','6FCA7757C323BF6885F3D3734BF17804','2B1EB194386D77E26D8577FD77AB501D','CB90B5'," \
-             f"   '4E09E5',0,0,now(),now(),'32B1BDF6027D7E89034DA240AB93E2A2','D81741',0," \
-              f"  '2020-08-17 17:31:42','992312E5FD6EE39D43B885FFAC672577','1DDD47','DBEECACCB4210977ACE73A1D873CA59F'," \
-              f"  '0123456789ABCDEFFEDCBA9876543210','08D7B4',0,now(),'0123456789ABCDEFFEDCBA9876543210'," \
-               f" '08D7B4',0,now(),'0123456789ABCDEFFEDCBA9876543210','08D7B4',0,now(),0);"
+            f"VALUES ({item[26]},'{item[9]}','EDWD455DFDGDGDGDR5686969696969696','DFER34376475858DDF6564644464G4','WE3433'," \
+             f"   'ETTT5464',0,0,now(),now(),'45DDFGGJKKHFD45656577544','D345564FG',0," \
+              f"  '2020-08-17 17:31:42','3ERSDGTDFSDDE466464646','2WEWEDDE','DGERT4565565DSFDFD777878'," \
+              f"  '345676575757757CDGDGDHHFHFHHFHF','08D7B4',0,now(),'DFEERF44776876DFGGFHFGGFGG'," \
+               f" '08D7B4',0,now(),'E344DDFETGHTIY56568666976699','ETEEYY4466',0,now(),0);"
         print(sql2)
         
         logging.basicConfig(filename='log.log', filemode='a', format='%(asctime)s - %(message)s', level=logging.INFO)
