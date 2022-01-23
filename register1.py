@@ -52,7 +52,7 @@ else:
             logging.basicConfig(filename='log.log', filemode='a', format='%(asctime)s - %(message)s', level=logging.INFO)
             logging.warning(f'SQl statement are now being written to file named sql {item[9]}:{sql}. ') 
             try:
-                conn = msql.connect(host='localhost', database='housing_data', user='root', password='Magfum12@')
+                conn = msql.connect(host='localhost', database='housing_data', user='root', password='wewedewew')
                 if conn.is_connected():
                     cursor = conn.cursor()
                     cursor.execute("select database();")
@@ -113,7 +113,7 @@ for item in my_list:
         logging.basicConfig(filename='log.log', filemode='a', format='%(asctime)s - %(message)s', level=logging.INFO)
         logging.warning(f'SQl statement are now being written to file named sql:{sql2}. ') 
         try:
-            conn = msql.connect(host='localhost', database='housing_data', user='root', password='Magfum12@')
+            conn = msql.connect(host='localhost', database='housing_data', user='root', password='sfsfsff')
             if conn.is_connected():
                 cursor = conn.cursor()
                 cursor.execute("select database();")
@@ -166,7 +166,7 @@ else:
     #print(contents1)
     
     try:
-        conn = msql.connect(host='localhost', database='housing_data', user='root', password='Magfum2@')
+        conn = msql.connect(host='localhost', database='housing_data', user='root', password='sdsffsff')
         if conn.is_connected():
             cursor = conn.cursor()
             cursor.execute("select database();")
